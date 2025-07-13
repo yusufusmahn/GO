@@ -29,7 +29,7 @@ func main() {
         fmt.Scan(&creditLimit)
 
         if beginBalance < 0 || charges < 0 || credits < 0 || creditLimit < 0 {
-            fmt.Println("Inputs cannot be negative. Try again.")
+            fmt.Println("Inputs cannot be negative, Try again.")
             continue
         }
 
